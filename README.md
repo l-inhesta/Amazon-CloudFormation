@@ -112,5 +112,5 @@ MIT
 
 **Luiz Augusto Souza**
 
-* 💼 LinkedIn: Link
-* 💻 YouTube: Link
+* 💼 LinkedIn: [Link](https://www.linkedin.com/in/luiz-inhesta-341b4b311/)
+* 💻 YouTube: [Link](https://youtu.be/css8Vk6vtDo)
