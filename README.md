@@ -16,11 +16,9 @@ O projeto evolui de um **site estático (front-end)** para uma **plataforma comp
 
 Demonstrar, na prática, como construir uma aplicação completa na AWS utilizando:
 
-- Front-end hospedado na nuvem  
-- Backend serverless  
-- Infraestrutura automatizada com CloudFormation  
+- Infraestrutura com CloudFormation  
 - Pipeline de deploy com GitHub Actions  
-- Separação de ambientes (DEV e PRD)  
+
 
 ---
 
