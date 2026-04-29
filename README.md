@@ -1,4 +1,4 @@
-# ☁️ Cloud Formation - Infrastructure as Code & CI/CD - Site Filmes 1/1
+# ☁️ Cloud Formation - Infrastructure as Code - Site Filmes 1/1
 
 ## 📌 Sobre o Projeto
 
@@ -22,28 +22,24 @@ Demonstrar, na prática, como construir uma aplicação completa na AWS utilizan
 
 ---
 
-## 🚀 Etapas do Projeto
+## 🏗️ Etapas do Projeto
 
-### 1. CloudFormation (Infraestrutura como Código)
+### ✅ Etapa 1 – CloudFormation (Infraestrutura como Código)
 
-Nesta etapa, toda a infraestrutura foi criada utilizando arquivos YAML no CloudFormation.
+Criação da infraestrutura inicial utilizando templates:
 
-Os templates foram enviados diretamente via upload no console, com explicação detalhada de:
+✔️ **Amazon S3** – Hospedagem do site estático  
+✔️ **Amazon CloudFront** – Distribuição CDN + OAC 🔒  
+✔️ **Amazon Route 53** – Gerenciamento de domínio  
+✔️ **AWS Certificate Manager** – HTTPS 🔐  
 
-Recursos criados
-Propriedades utilizadas
-Integração entre serviços
+📌 Nessa etapa, toda a infraestrutura é definida via código, permitindo reuso, padronização e automação.
 
-📌 Aqui transformamos a infraestrutura manual em código.
+ ⏳ Etapa 2 – Versionamento no GitHub *(próxima etapa)*
 
-### 2. GitHub
-Versionamento do projeto.
-
-### 3. GitHub Actions
-Automação de deploy (CI/CD).
-
-### 4. Ambientes
-Separação entre DEV e PRD.
+ ⏳ Etapa 3 – Pipeline CI/CD 
+ 
+ ⏳ Etapa 4 – Backend Serverless
 
 ![CloudFormation](imagens/imagem.png)
 ---
